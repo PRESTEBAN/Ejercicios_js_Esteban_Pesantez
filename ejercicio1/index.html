@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 1 - Calculadora de compra</title>
+  <link rel="stylesheet" href="style.css">
+   <script src="script.js"></script>
+</head>
+<body>
+  <h1>Calculadora de compra</h1>
+
+  <p>
+    <label for="precio">Precio unitario ($):</label><br>
+    <input type="number" id="precio" step="any">
+  </p>
+  <p>
+    <label for="cantidad">Cantidad:</label><br>
+    <input type="number" id="cantidad" step="any">
+  </p>
+
+  <button onclick="calcularTotal()">Calcular total</button>
+
+  <p id="resultado"></p>
+
+  <p><a href="../index.html">Volver al inicio</a></p>
+
+</body>
+</html>
